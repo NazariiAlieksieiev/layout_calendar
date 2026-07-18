@@ -25,7 +25,7 @@ body {
   flex-wrap: wrap;
   gap: $gap;
   padding: 10px;
-  max-width: $week * ($width + $gap);
+  max-width: $week * ($width + $gap) - $gap;
 
   &__day {
     box-sizing: border-box;
